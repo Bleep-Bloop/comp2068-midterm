@@ -14,6 +14,7 @@ body {
     float: left;
     padding: 10px;   
     height: 230px;
+    width: 220px;
 
 }
 
@@ -21,7 +22,7 @@ body {
     position: absolute;
     top: 435px;
     left: 10px;
-    height: 210px;
+    height: 215px;
     
 }
 
@@ -36,6 +37,7 @@ body {
     top: 670px;
     left: 10px;
     height: 210px;
+    width: 200px;
 }
 
 #eugeneboudinText {
@@ -108,4 +110,8 @@ textarea {
 #logoText {
     color: black;
 }
+
+
+
+
 
