@@ -1,0 +1,99 @@
+/*
+File Name: app.css
+Author: Taisen Colcher
+Website http://taisencolcher-advancedwebassignment1.azurewebsites.net/contact / TaisenColcher.com
+ Css style sheet for TaisenColcher.com
+ */
+
+body {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       background-color: lightgrey;
+}
+
+#profilePicture {
+    float: left;
+    padding: 10px;   
+    height: 170px;
+
+}
+
+#unityLogo {
+     float: left;
+    padding: 10px;   
+    height: 170px;
+    width: 280px;
+    
+}
+
+#unityText {
+    position: absolute;
+    top: 235px;
+    left: 320px;
+    
+}
+
+#blenderLogo {
+    position: absolute;
+     top: 350px;
+     left: 0;
+     height: 170px;
+    width: 280px;
+}
+
+#blenderText {
+    position: absolute;
+    top: 410px;
+    left: 320px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+small {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+#project2picture {
+    
+    position: absolute;
+    top: 375px;
+    left: 0;   
+}
+
+#project1text {
+    position: absolute;
+    top: 126px;
+    left: 220px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+}
+
+#project2text {
+    position: absolute;
+    top: 380px;
+    left: 220px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+#logoText {
+    color: black;
+}
+

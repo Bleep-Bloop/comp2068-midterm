@@ -1,0 +1,50 @@
+<!--
+File Name: contact.ejs
+Author: Taisen Colcher
+Website http://taisencolcher-advancedwebassignment1.azurewebsites.net/contact / TaisenColcher.com
+Contact page with email form for TaisenColcher.com
+ -->
+
+<% include partials/header.ejs %>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="container ">
+
+        <h1><%= title %></h1>
+        <p>Feel free to contact me here:
+        </p>
+
+
+        <form>
+            <div class="form-group">
+                <label for="inputName"><i class="fa fa-user"></i> Your Name </label>
+                <input type="text" class="form-control" id="inputName" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail"><i class="fa fa-envelope-o"></i> Your Email Address </label>
+                <input type="email" class="form-control" id="inputName" placeholder="Email">
+            </div>
+            <!--IGNORE THIS TEMP-->
+            <!-- <div class="form-group">
+                <label for="inputMessage"><i class="fa fa-key"></i> Your Message</label>
+                <input type="text" class="form-control" id="inputMessage" placeholder="Message">
+            </div>
+            -->
+            <div class="form-group">
+                <label for="inputMessage"><i class="fa fa-reply"></i> Your Message</label>
+                <textarea placeholder="Questions, Comments, & Concerns" class="form-control" rows="9" id="inputMessage"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Send Email</button>
+        </form>
+
+ 
+
+
+
+
+    </main>
+
+
+
+    <% include partials/footer.ejs%>
