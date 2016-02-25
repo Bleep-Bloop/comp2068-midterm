@@ -19,14 +19,27 @@ body {
 
 #sherlockholmes {
     position: absolute;
-    top: 400px;
+    top: 435px;
     left: 10px;
-    height: 230px;
+    height: 210px;
 }
 
-#sherlocktext {
+#sherlockText {
     position: absolute;
-    top: 420px;
+    top: 440px;
+    left: 230px;
+}
+
+#eugeneboudin{
+    position: absolute;
+    top: 670px;
+    left: 10px;
+    height: 210px;
+}
+
+#eugeneboudinText {
+    position: absolute;
+    top: 720px;
     left: 230px;
 }
 
