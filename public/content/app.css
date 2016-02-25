@@ -22,6 +22,7 @@ body {
     top: 435px;
     left: 10px;
     height: 210px;
+    
 }
 
 #sherlockText {
@@ -43,35 +44,17 @@ body {
     left: 230px;
 }
 
-#unityLogo {
-     float: left;
-    padding: 10px;   
-    height: 170px;
-    width: 280px;
+
+#welcomeBanner {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    min-height: 25%;
+    
     
 }
 
-#unityText {
-    position: absolute;
-    top: 235px;
-    left: 320px;
-    
-}
-
-#blenderLogo {
-    position: absolute;
-     top: 350px;
-     left: 0;
-     height: 170px;
-    width: 280px;
-}
-
-#blenderText {
-    position: absolute;
-    top: 410px;
-    left: 320px;
-    
-}
 
 h1 {
     text-align: center;
@@ -95,29 +78,32 @@ textarea {
 }
 
 
-
-#project2picture {
-    
+#pre0 {
     position: absolute;
-    top: 375px;
-    left: 0;   
-}
-
-#project1text {
-    position: absolute;
-    top: 126px;
-    left: 220px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    top: 215px;
+    left: 180px;
+    right: 12px;
+    overflow: auto;
   
-}
-
-#project2text {
-    position: absolute;
-    top: 380px;
-    left: 220px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     
 }
+
+#pre1 {
+    position: absolute;
+    top: 450px;
+    left: 220px;
+    right: 12px;
+    overflow: auto;
+}
+
+#pre2 {
+    position: absolute;
+    top: 680px;
+    left: 190px;
+    right: 12px;
+    overflow: auto;
+}
+
 
 #logoText {
     color: black;
