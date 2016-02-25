@@ -1,12 +1,12 @@
 {
-  "name": "comp2068lab3",
-  "description": "COMP2068 Lab 3 deployed to Azure",
+  "name": "Taisen Colcher's Favourite People",
+  "description": "",
   "main": "",
   "authors": [
     "Taisen Colcher"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/Bleep-Bloop/comp2068week4",
+  "homepage": "http://comp2068midtermtaisencolcher.azurewebsites.net/",
   "moduleType": [],
   "dependencies": {
     "jquery": "^2.2.0",
